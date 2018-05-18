@@ -18,6 +18,10 @@ public class ExecutorServiceTests {
         ExecutorService executorService = ExecutorService.newFixedLengthPool(5);
 
         Thread t1 = new Thread(new DoSomething("first thread"));
+<<<<<<< HEAD
+=======
+        //t1.start();
+>>>>>>> c8b52aaa1f74eaefa467c7ffa6aa45ec346562e5
         try {
             executorService.submit(t1);
 
